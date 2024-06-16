@@ -1,13 +1,11 @@
 import './index.css'
 
 function App() {
-
   return (
     <>
-      <div>test
-        </div>
+      <div>testing</div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

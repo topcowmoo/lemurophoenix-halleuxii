@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        cursive: ["Kaushan Script", "cursive"],
+        cursive: ["Kalam", "cursive"],
       },
     },
   },
