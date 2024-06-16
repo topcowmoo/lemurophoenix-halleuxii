@@ -37,8 +37,8 @@ function App() {
 
   return (
     <div className="bg-gray-100 flex items-center justify-center h-screen">
-      <div className="border border-green-500 p-8 rounded-lg shadow-md" style={{ backgroundColor: 'white' }}>
-        <h1 className="text-3xl font-semibold text-center mb-8 text-green-700">Age Calculator</h1>
+      <div className="border border-amber-600 p-8 rounded-lg shadow-md" style={{ backgroundColor: 'white' }}>
+        <h1 className="text-3xl font-semibold text-center mb-8 text-blue-700">Age Calculator</h1>
         <strong className="block text-lg text-center mb-8">
           This free age calculator computes age in terms of years, months, weeks, days, hours, minutes, and seconds, given a date of birth.
         </strong>

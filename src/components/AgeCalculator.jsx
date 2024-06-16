@@ -1,9 +1,11 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
+import 'animate.css';
 
 export const AgeCalculator = ({ calculateAge }) => {
   const [date, setDate] = useState("");
-  console.log(date);
+  const [isAnimatingClear, setIsAnimatingClear] = useState(false);
+  const [isAnimatingCalculate, setIsAnimatingCalculate] = useState(false);
 
   const handleChangeDate = (val) => {
     setDate(val.target.value);
@@ -12,12 +14,24 @@ export const AgeCalculator = ({ calculateAge }) => {
   const handleSubmit = (val) => {
     val.preventDefault();
     calculateAge(date);
+    setIsAnimatingCalculate(true);
+    setTimeout(() => {
+      setIsAnimatingCalculate(false);
+    }, 1000); // duration of the animation
+  };
+
+  const handleClear = () => {
+    setDate("");
+    setIsAnimatingClear(true);
+    setTimeout(() => {
+      setIsAnimatingClear(false);
+    }, 1000); // duration of the animation
   };
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col mb-4">
-      <div className="mb-4">
-        <label htmlFor="inputDob" className="text-gray-700">
+      <div className="mb-4 text-center">
+        <label htmlFor="inputDob" className="text-gray-700 block">
           Enter your Date of Birth
         </label>
         <input
@@ -34,14 +48,18 @@ export const AgeCalculator = ({ calculateAge }) => {
           type="submit"
           className={`${
             !date ? "bg-blue-300" : "bg-blue-500"
-          } text-white font-semibold px-4 py-2 rounded`}
+          } text-white font-semibold px-4 py-2 rounded ${
+            isAnimatingCalculate ? "animate__animated animate__rubberBand" : ""
+          }`}
         >
           Calculate Age
         </button>
         <button
           type="button"
-          onClick={() => setDate("")}
-          className="bg-gray-500 text-white font-semibold px-4 py-2 rounded"
+          onClick={handleClear}
+          className={`bg-gray-500 text-white font-semibold px-4 py-2 rounded ${
+            isAnimatingClear ? "animate__animated animate__rubberBand" : ""
+          }`}
         >
           Clear
         </button>
