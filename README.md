@@ -55,13 +55,17 @@ An age calculator application created using ReactJS and TailwindCSS which comput
 
 A single-page React application.
 
-Login Page:
+Landing page:
 
-![image](https://github.com/topcowmoo/futuristic-wound/assets/149528212/8adabc44-3234-4d6f-a88d-38d02bdc85eb)
+![image](https://github.com/topcowmoo/lemurophoenix-halleuxii/assets/149528212/2f8cb5fd-2571-4f13-a4d4-c32bd83c6523)
 
-Signup Page:
+Date of birth search box:
 
-![image](https://github.com/topcowmoo/futuristic-wound/assets/149528212/39535e27-b477-49c0-b22e-381edf0522e9)
+![image](https://github.com/topcowmoo/lemurophoenix-halleuxii/assets/149528212/bf88b224-1c0e-4df6-97d9-683b8f54c95c)
+
+Result:
+
+![image](https://github.com/topcowmoo/lemurophoenix-halleuxii/assets/149528212/42ed0635-dbba-46b8-a6cd-616b1fb84145)
 
 <!-- BUILT WITH -->
 
