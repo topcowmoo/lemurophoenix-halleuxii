@@ -1,33 +1,26 @@
-# lemurophoenix-halleuxii
-
-React Age Calculator
-
 <a name="readme-top"></a>
 
 <br />
 <div align="center">
   <a href="https://github.com/topcowmoo/lemurophoenix-halleuxii">
-    <img src="./client/src/assets/baketomo-logo.svg" alt="Logo">
+    <img src="/src/assets/calculator.png" alt="Logo">
   </a>
 
-<h3 align="center"><a href="">React Age Calculator</a></h3>
+<h3 align="center">Age Calculator</></h3>
 
   <p align="center">
 
-Summon your courage, gather your monsters and enter the Bakétomo Dungeon to acquire even more monsters for your closet!
+This project is a single page app React Portfolio, designed to showcase my work and skills. Built using Vite for fast development, Tailwind CSS for styling, and Formik for form management, the portfolio includes sections for displaying my projects, contacting me among others. It provides a clean and modern interface for potential employers or clients to explore my portfolio. Please check out the deployed version, which is hosted on Netlify (link below). Thank you.
 
-<br />
 <br />
 <a href="https://github.com/topcowmoo/lemurophoenix-halleuxii"><strong>Explore the docs »</strong></a>
 <br />
 <br />
-<a href="https://baketomo.onrender.com/">Deployed App on Render</a>
+<a href="https://lemurophoenix-halleuxii.netlify.app/">Deployed App on Netlify</a>
 ·
 <a href="https://github.com/topcowmoo/lemurophoenix-halleuxii/issues">Report Bug</a>
 ·
 <a href="https://github.com/topcowmoo/lemurophoenix-halleuxii/issues">Request Feature</a>
-
-<a href="https://docs.google.com/document/d/1rHQ_tM3kYNMB6qDTxue6-6NvB7A_TC0nRu216h9Ysxk/edit">Proposal</a>
 
 </p>
 </div>
@@ -70,45 +63,26 @@ Signup Page:
 
 ![image](https://github.com/topcowmoo/futuristic-wound/assets/149528212/39535e27-b477-49c0-b22e-381edf0522e9)
 
-### Strategic Approach To Development
-
-Development team whiteboarded solutions before coding. This helped us understand how to create the features:
-
-![image](https://github.com/topcowmoo/futuristic-wound/assets/149528212/86489264-d4c1-4640-973b-1c1acd27ddc7)
-
-![image](https://github.com/topcowmoo/futuristic-wound/assets/149528212/e5d98a4c-eaa9-4b94-ba2d-d2f29ae1e0be)
-
-### Stripe Implementation
-
-Successful purchases of Monster packs through Stripe:
-
-![image](https://github.com/topcowmoo/futuristic-wound/assets/149528212/7d0481f4-3475-42cd-adc1-b6ba140e507e)
-
 <!-- BUILT WITH -->
 
 ## Built With
 
-[![My Skills](https://simpleskill.icons.workers.dev/svg?i=nodedotjs,express,javascript,react,vite,reactrouter,tailwindcss,mongodb,mongoose,render,amazonaws,amazons3,stripe,=50)](#)
+[![My Skills](https://simpleskill.icons.workers.dev/svg?i=nodedotjs,javascript,react,vite,reactrouter,tailwindcss,datefns,googlefonts,netlify,=50)](#)
 
 ### Installation
 
-1. Clone the repo to your local machince
+1. Clone the repo to your local machince.
    ```sh
-   git clone https://github.com/topcowmoo/lemurophoenix-halleuxii
+   git clone https://github.com/topcowmoo/verschaffeltia-splendida
    ```
-2. Install server and client dependencies
+2. Install NPM packages
    ```sh
    npm install
    ```
-3. Run the development environment
+3. Start the server from the terminal
    ```sh
-   npm run devlop
+   npm run start
    ```
-4. Build for production
-   ```sh
-   npm run build
-   ```
-5. Signup and play!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,9 +107,9 @@ Don't forget to give the project a star! Thanks again!
 
 ## Contact
 
-- Salvatore Mammoliti - [@github](https://github.com/topcowmoo) - mammoliti.sam@gmail.com
+Salvatore Mammoliti - [@github](https://github.com/topcowmoo) - mammoliti.sam@gmail.com
 
-Deployed Link: [https://baketomo.onrender.com/](https://baketomo.onrender.com/)
+Netlify Link: [https://lemurophoenix-halleuxii.netlify.app/](https://lemurophoenix-halleuxii.netlify.app/)
 
 Project Link: [https://github.com/topcowmoo/lemurophoenix-halleuxii](https://github.com/topcowmoo/lemurophoenix-halleuxii)
 
@@ -157,3 +131,5 @@ Project Link: [https://github.com/topcowmoo/lemurophoenix-halleuxii](https://git
 ![GitHub language stats](https://img.shields.io/github/languages/top/topcowmoo/lemurophoenix-halleuxii)
 
 ![Languages](https://img.shields.io/github/languages/count/topcowmoo/lemurophoenix-halleuxii)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9571f5a3-14c2-4461-8e6b-7590ac18de56/deploy-status)](https://app.netlify.com/sites/lemurophoenix-halleuxii/deploys)
