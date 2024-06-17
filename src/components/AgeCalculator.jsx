@@ -46,9 +46,7 @@ export const AgeCalculator = ({ calculateAge }) => {
         <button
           disabled={!date}
           type="submit"
-          className={`${
-            !date ? "bg-blue-300" : "bg-blue-500"
-          } text-white font-semibold px-4 py-2 rounded ${
+          className={`bg-gray-500 text-white font-semibold px-4 py-2 rounded ${
             isAnimatingCalculate ? "animate__animated animate__rubberBand" : ""
           }`}
         >

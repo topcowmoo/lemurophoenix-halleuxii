@@ -10,7 +10,7 @@
 
   <p align="center">
 
-This project is a single page app React Portfolio, designed to showcase my work and skills. Built using Vite for fast development, Tailwind CSS for styling, and Formik for form management, the portfolio includes sections for displaying my projects, contacting me among others. It provides a clean and modern interface for potential employers or clients to explore my portfolio. Please check out the deployed version, which is hosted on Netlify (link below). Thank you.
+An age calculator application created using ReactJS and TailwindCSS which computes age in terms of years, months, weeks, days, hours, minutes, and seconds, given a date of birth.
 
 <br />
 <a href="https://github.com/topcowmoo/lemurophoenix-halleuxii"><strong>Explore the docs »</strong></a>
@@ -53,7 +53,7 @@ This project is a single page app React Portfolio, designed to showcase my work 
 
 ## About The Project
 
-A multi page MERN application with the client side deployed on Render and the server side deployed on MongoDB Atlas. This application uses MongoDB with Mongoose and GraphQL Apollo Server. Forms are handled by Formik and images are hosted on AWS S3 bucket.
+A single-page React application.
 
 Login Page:
 
